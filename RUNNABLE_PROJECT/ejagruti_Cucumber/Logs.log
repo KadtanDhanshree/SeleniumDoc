@@ -1,0 +1,2 @@
+2018-12-23 09:55:25 INFO  LoginApp:21 - STEP:0 STATUS:PASS, Step Name:When user opens the firefox browser, Exception Info:NA
+2018-12-23 09:55:25 INFO  LoginApp:34 - STEP:1 STATUS:PASS, STEP Name:user enter the url http://localhost:90/finsys, Exception Info:NA

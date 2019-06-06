@@ -1,0 +1,410 @@
+2019-02-02 08:53:07 INFO  CreateCompany:18 - ************Login Functionality for valid username and password************
+2019-02-02 08:53:07 INFO  CreateCompany:19 - **************////[@Login, @HappyPath]
+2019-02-02 08:53:07 INFO  CreateCompany:22 - This will run before the Scenario.
+2019-02-02 08:53:08 INFO  LoginApp:22 - STEP:1 STATUS:PASS, STEP NAME:When user opens the firefox browser, Exception Info:NA
+2019-02-02 08:53:08 INFO  LoginApp:40 - STEP:2 STATUS:PASS, STEP NAME:User has entered the url http://localhost:90/finsys, Exception Info:NA
+2019-02-02 08:53:08 INFO  LoginApp:56 - STEP:3 STATUS:PASS, STEP NAME:User landed on Login page. Exception Info:NA
+2019-02-02 08:53:08 INFO  LoginApp:74 - STEP:4 STATUS:PASS, STEP NAME:User will be entered as dummyfm, Exception Info:NA
+2019-02-02 08:53:08 INFO  LoginApp:90 - STEP:5 STATUS:PASS, STEP NAME:User has entered password as passw0rd, Exception Info:NA
+2019-02-02 08:53:08 INFO  LoginApp:107 - STEP:6 STATUS:PASS, STEP NAME:Login button has clicked. Exception Info:NA
+2019-02-02 08:53:08 INFO  LoginApp:124 - STEP:7 STATUS:PASS, STEP NAME:User Login validation. Exception Info:NA
+2019-02-02 08:53:08 INFO  LoginApp:141 - STEP:8 STATUS:PASS, STEP NAME:Login message validation. Exception Info:NA
+2019-02-02 08:53:08 INFO  CreateCompany:46 - This will run after the scenario.
+2019-02-02 08:53:08 INFO  CreateCompany:47 - ************End of Login Functionality for valid username and password***********
+2019-02-02 08:53:08 INFO  CreateCompany:48 - ------------------------------------------------------------------
+2019-02-02 08:53:08 DEBUG cache:45 - Couldn't find template in cache for "Extent.Offline.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-02 08:53:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en_IN.ftl"): Not found
+2019-02-02 08:53:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en.ftl"): Not found
+2019-02-02 08:53:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline.ftl"): Found
+2019-02-02 08:53:08 DEBUG cache:45 - Loading template for "Extent.Offline.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Abhijit/ejagruti-automation/maven/Repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.Offline.ftl"
+2019-02-02 08:53:08 DEBUG cache:45 - Couldn't find template in cache for "Extent.Offline.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-02 08:53:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en_IN.ftl"): Not found
+2019-02-02 08:53:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en.ftl"): Not found
+2019-02-02 08:53:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline.ftl"): Found
+2019-02-02 08:53:08 DEBUG cache:45 - Loading template for "Extent.Offline.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Abhijit/ejagruti-automation/maven/Repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.Offline.ftl"
+2019-02-02 08:53:08 INFO  CreateCompany:18 - ************Create Company finctionality************
+2019-02-02 08:53:08 INFO  CreateCompany:19 - **************////[@HappyPath, @CreateCompanyHappyPath, @CreateCompany]
+2019-02-02 08:53:08 INFO  CreateCompany:22 - This will run before the Scenario.
+2019-02-02 08:53:08 INFO  LoginApp:22 - STEP:1 STATUS:PASS, STEP NAME:When user opens the firefox browser, Exception Info:NA
+2019-02-02 08:53:08 INFO  LoginApp:40 - STEP:2 STATUS:PASS, STEP NAME:User has entered the url http://localhost:90/finsys, Exception Info:NA
+2019-02-02 08:53:08 INFO  LoginApp:56 - STEP:3 STATUS:PASS, STEP NAME:User landed on Login page. Exception Info:NA
+2019-02-02 08:53:08 INFO  LoginApp:74 - STEP:4 STATUS:PASS, STEP NAME:User will be entered as dummyfm, Exception Info:NA
+2019-02-02 08:53:08 INFO  LoginApp:90 - STEP:5 STATUS:PASS, STEP NAME:User has entered password as passw0rd, Exception Info:NA
+2019-02-02 08:53:08 INFO  LoginApp:107 - STEP:6 STATUS:PASS, STEP NAME:Login button has clicked. Exception Info:NA
+2019-02-02 08:53:08 INFO  LoginApp:124 - STEP:7 STATUS:PASS, STEP NAME:User Login validation. Exception Info:NA
+2019-02-02 08:53:08 INFO  LoginApp:141 - STEP:8 STATUS:PASS, STEP NAME:Login message validation. Exception Info:NA
+2019-02-02 08:53:08 INFO  LoginApp:58 - STEP:9 STATUS:PASS, STEP NAME:Verify that user is on Welcome Page, Exception Info:NA
+2019-02-02 08:53:08 INFO  LoginApp:77 - STEP:10 STATUS:PASS, STEP NAME:User has clicked on Manage Company link, Exception Info:NA
+2019-02-02 08:53:08 INFO  LoginApp:94 - STEP:11 STATUS:PASS, System shows the 'ManageCompany' tab, Exception Info:NA
+2019-02-02 08:53:08 INFO  LoginApp:113 - STEP:12 STATUS:PASS, STEP NAME:Application displays 'Company' table after clicking on 'Manage Company' link, Exception Info:NA
+2019-02-02 08:53:08 INFO  LoginApp:132 - STEP:13 STATUS:PASS, STEP NAME:User clicked on the New Company Link., Exception Info:NA
+2019-02-02 08:53:08 INFO  LoginApp:149 - STEP:14 STATUS:PASS, STEP NAME:User entered Company name as TCS, Exception Info:NA
+2019-02-02 08:53:08 INFO  LoginApp:167 - STEP:15 STATUS:PASS, STEP NAME:User has entered the company type as IT, Exception Info:NA
+2019-02-02 08:53:08 INFO  LoginApp:185 - STEP:16 STATUS:PASS, STEP NAME:User has selected the Country as INDIA, Exception Info:NA
+2019-02-02 08:53:08 INFO  LoginApp:203 - STEP:17 STATUS:PASS, STEP NAME:User has selected the state MAHARASTRA, Exception Info:NA
+2019-02-02 08:53:08 INFO  LoginApp:220 - STEP:18 STATUS:PASS, STEP NAME:User has entered the city as PUNE, Exception Info:NA
+2019-02-02 08:53:08 INFO  LoginApp:238 - STEP:19 STATUS:PASS, STEP NAME:User has entered the Email as abc@ejagruti.com, Exception Info:NA
+2019-02-02 08:53:08 INFO  LoginApp:256 - STEP:20 STATUS:PASS, STEP NAME:User has entered the PAN as ABCYZ1234A, Exception Info:NA
+2019-02-02 08:53:08 INFO  LoginApp:273 - STEP:21 STATUS:PASS, STEP NAME:User has entered the TIN as XYZAB9876Z, Exception Info:NA
+2019-02-02 08:53:08 INFO  LoginApp:290 - STEP:22 STATUS:PASS, STEP NAME:User has clicked to save, Exception Info:NA
+2019-02-02 08:53:08 INFO  LoginApp:308 - STEP:23 STATUS:PASS, STEP NAME:Application has displayed new record in table, Exception Info:NA
+2019-02-02 08:53:08 INFO  CreateCompany:46 - This will run after the scenario.
+2019-02-02 08:53:08 INFO  CreateCompany:47 - ************End of Create Company finctionality***********
+2019-02-02 08:53:08 INFO  CreateCompany:48 - ------------------------------------------------------------------
+2019-02-02 08:53:08 DEBUG cache:45 - Couldn't find template in cache for "Extent.Offline.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-02 08:53:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en_IN.ftl"): Not found
+2019-02-02 08:53:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en.ftl"): Not found
+2019-02-02 08:53:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline.ftl"): Found
+2019-02-02 08:53:08 DEBUG cache:45 - Loading template for "Extent.Offline.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Abhijit/ejagruti-automation/maven/Repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.Offline.ftl"
+2019-02-02 08:53:08 DEBUG cache:45 - Couldn't find template in cache for "Extent.Offline.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-02 08:53:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en_IN.ftl"): Not found
+2019-02-02 08:53:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en.ftl"): Not found
+2019-02-02 08:53:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline.ftl"): Found
+2019-02-02 08:53:08 DEBUG cache:45 - Loading template for "Extent.Offline.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Abhijit/ejagruti-automation/maven/Repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.Offline.ftl"
+2019-02-02 09:03:08 INFO  CreateCompany:18 - ************Login Functionality for valid username and password************
+2019-02-02 09:03:08 INFO  CreateCompany:22 - This will run before the Scenario.
+2019-02-02 09:03:08 INFO  LoginApp:23 - STEP:1 STATUS:PASS, STEP NAME:When user opens the firefox browser, Exception Info:NA
+2019-02-02 09:03:08 INFO  LoginApp:41 - STEP:2 STATUS:PASS, STEP NAME:User has entered the url http://localhost:90/finsys, Exception Info:NA
+2019-02-02 09:03:08 INFO  LoginApp:57 - STEP:3 STATUS:PASS, STEP NAME:User landed on Login page. Exception Info:NA
+2019-02-02 09:03:08 INFO  LoginApp:75 - STEP:4 STATUS:PASS, STEP NAME:User will be entered as dummyfm, Exception Info:NA
+2019-02-02 09:03:08 INFO  LoginApp:91 - STEP:5 STATUS:PASS, STEP NAME:User has entered password as passw0rd, Exception Info:NA
+2019-02-02 09:03:08 INFO  LoginApp:108 - STEP:6 STATUS:PASS, STEP NAME:Login button has clicked. Exception Info:NA
+2019-02-02 09:03:08 INFO  LoginApp:125 - STEP:7 STATUS:PASS, STEP NAME:User Login validation. Exception Info:NA
+2019-02-02 09:03:08 INFO  LoginApp:142 - STEP:8 STATUS:PASS, STEP NAME:Login message validation. Exception Info:NA
+2019-02-02 09:03:08 INFO  CreateCompany:46 - This will run after the scenario.
+2019-02-02 09:03:08 INFO  CreateCompany:47 - ************End of Login Functionality for valid username and password***********
+2019-02-02 09:03:08 INFO  CreateCompany:48 - ------------------------------------------------------------------
+2019-02-02 09:03:08 DEBUG cache:45 - Couldn't find template in cache for "Extent.Offline.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-02 09:03:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en_IN.ftl"): Not found
+2019-02-02 09:03:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en.ftl"): Not found
+2019-02-02 09:03:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline.ftl"): Found
+2019-02-02 09:03:08 DEBUG cache:45 - Loading template for "Extent.Offline.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Abhijit/ejagruti-automation/maven/Repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.Offline.ftl"
+2019-02-02 09:03:08 DEBUG cache:45 - Couldn't find template in cache for "Extent.Offline.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-02 09:03:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en_IN.ftl"): Not found
+2019-02-02 09:03:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en.ftl"): Not found
+2019-02-02 09:03:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline.ftl"): Found
+2019-02-02 09:03:08 DEBUG cache:45 - Loading template for "Extent.Offline.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Abhijit/ejagruti-automation/maven/Repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.Offline.ftl"
+2019-02-02 09:03:08 INFO  CreateCompany:18 - ************Create Company finctionality************
+2019-02-02 09:03:08 INFO  CreateCompany:22 - This will run before the Scenario.
+2019-02-02 09:03:08 INFO  LoginApp:23 - STEP:1 STATUS:PASS, STEP NAME:When user opens the firefox browser, Exception Info:NA
+2019-02-02 09:03:08 INFO  LoginApp:41 - STEP:2 STATUS:PASS, STEP NAME:User has entered the url http://localhost:90/finsys, Exception Info:NA
+2019-02-02 09:03:08 INFO  LoginApp:57 - STEP:3 STATUS:PASS, STEP NAME:User landed on Login page. Exception Info:NA
+2019-02-02 09:03:08 INFO  LoginApp:75 - STEP:4 STATUS:PASS, STEP NAME:User will be entered as dummyfm, Exception Info:NA
+2019-02-02 09:03:08 INFO  LoginApp:91 - STEP:5 STATUS:PASS, STEP NAME:User has entered password as passw0rd, Exception Info:NA
+2019-02-02 09:03:08 INFO  LoginApp:108 - STEP:6 STATUS:PASS, STEP NAME:Login button has clicked. Exception Info:NA
+2019-02-02 09:03:08 INFO  LoginApp:125 - STEP:7 STATUS:PASS, STEP NAME:User Login validation. Exception Info:NA
+2019-02-02 09:03:08 INFO  LoginApp:142 - STEP:8 STATUS:PASS, STEP NAME:Login message validation. Exception Info:NA
+2019-02-02 09:03:08 INFO  LoginApp:59 - STEP:9 STATUS:PASS, STEP NAME:Verify that user is on Welcome Page, Exception Info:NA
+2019-02-02 09:03:08 INFO  LoginApp:78 - STEP:10 STATUS:PASS, STEP NAME:User has clicked on Manage Company link, Exception Info:NA
+2019-02-02 09:03:08 INFO  LoginApp:95 - STEP:11 STATUS:PASS, STEP NAME:System shows the 'ManageCompany' tab, Exception Info:NA
+2019-02-02 09:03:08 INFO  LoginApp:114 - STEP:12 STATUS:PASS, STEP NAME:Application displays 'Company' table after clicking on 'Manage Company' link, Exception Info:NA
+2019-02-02 09:03:08 INFO  LoginApp:133 - STEP:13 STATUS:PASS, STEP NAME:User clicked on the New Company Link., Exception Info:NA
+2019-02-02 09:03:08 INFO  LoginApp:150 - STEP:14 STATUS:PASS, STEP NAME:User entered Company name as TCS, Exception Info:NA
+2019-02-02 09:03:08 INFO  LoginApp:168 - STEP:15 STATUS:PASS, STEP NAME:User has entered the company type as IT, Exception Info:NA
+2019-02-02 09:03:08 INFO  LoginApp:186 - STEP:16 STATUS:PASS, STEP NAME:User has selected the Country as INDIA, Exception Info:NA
+2019-02-02 09:03:08 INFO  LoginApp:204 - STEP:17 STATUS:PASS, STEP NAME:User has selected the state MAHARASTRA, Exception Info:NA
+2019-02-02 09:03:08 INFO  LoginApp:221 - STEP:18 STATUS:PASS, STEP NAME:User has entered the city as PUNE, Exception Info:NA
+2019-02-02 09:03:08 INFO  LoginApp:239 - STEP:19 STATUS:PASS, STEP NAME:User has entered the Email as abc@ejagruti.com, Exception Info:NA
+2019-02-02 09:03:08 INFO  LoginApp:257 - STEP:20 STATUS:PASS, STEP NAME:User has entered the PAN as ABCYZ1234A, Exception Info:NA
+2019-02-02 09:03:08 INFO  LoginApp:274 - STEP:21 STATUS:PASS, STEP NAME:User has entered the TIN as XYZAB9876Z, Exception Info:NA
+2019-02-02 09:03:08 INFO  LoginApp:291 - STEP:22 STATUS:PASS, STEP NAME:User has clicked to save, Exception Info:NA
+2019-02-02 09:03:08 INFO  LoginApp:309 - STEP:23 STATUS:PASS, STEP NAME:Application has displayed new record in table, Exception Info:NA
+2019-02-02 09:03:08 INFO  CreateCompany:46 - This will run after the scenario.
+2019-02-02 09:03:08 INFO  CreateCompany:47 - ************End of Create Company finctionality***********
+2019-02-02 09:03:08 INFO  CreateCompany:48 - ------------------------------------------------------------------
+2019-02-02 09:03:08 DEBUG cache:45 - Couldn't find template in cache for "Extent.Offline.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-02 09:03:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en_IN.ftl"): Not found
+2019-02-02 09:03:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en.ftl"): Not found
+2019-02-02 09:03:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline.ftl"): Found
+2019-02-02 09:03:08 DEBUG cache:45 - Loading template for "Extent.Offline.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Abhijit/ejagruti-automation/maven/Repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.Offline.ftl"
+2019-02-02 09:03:08 DEBUG cache:45 - Couldn't find template in cache for "Extent.Offline.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-02 09:03:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en_IN.ftl"): Not found
+2019-02-02 09:03:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en.ftl"): Not found
+2019-02-02 09:03:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline.ftl"): Found
+2019-02-02 09:03:08 DEBUG cache:45 - Loading template for "Extent.Offline.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Abhijit/ejagruti-automation/maven/Repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.Offline.ftl"
+2019-02-02 09:04:58 INFO  CreateCompany:18 - ************Login Functionality for valid username and password************
+2019-02-02 09:04:58 INFO  CreateCompany:22 - This will run before the Scenario.
+2019-02-02 09:04:58 INFO  LoginApp:23 - STEP:1 STATUS:PASS, STEP NAME:When user opens the firefox browser, Exception Info:NA
+2019-02-02 09:04:58 INFO  LoginApp:41 - STEP:2 STATUS:PASS, STEP NAME:User has entered the url http://localhost:90/finsys, Exception Info:NA
+2019-02-02 09:04:58 INFO  LoginApp:57 - STEP:3 STATUS:PASS, STEP NAME:User landed on Login page. Exception Info:NA
+2019-02-02 09:04:58 INFO  LoginApp:75 - STEP:4 STATUS:PASS, STEP NAME:User will be entered as dummyfm, Exception Info:NA
+2019-02-02 09:04:58 INFO  LoginApp:91 - STEP:5 STATUS:PASS, STEP NAME:User has entered password as passw0rd, Exception Info:NA
+2019-02-02 09:04:58 INFO  LoginApp:108 - STEP:6 STATUS:PASS, STEP NAME:Login button has clicked. Exception Info:NA
+2019-02-02 09:04:58 INFO  LoginApp:125 - STEP:7 STATUS:PASS, STEP NAME:User Login validation. Exception Info:NA
+2019-02-02 09:04:58 INFO  LoginApp:142 - STEP:8 STATUS:PASS, STEP NAME:Login message validation. Exception Info:NA
+2019-02-02 09:04:58 INFO  CreateCompany:46 - This will run after the scenario.
+2019-02-02 09:04:58 INFO  CreateCompany:47 - ************End of Login Functionality for valid username and password***********
+2019-02-02 09:04:58 INFO  CreateCompany:48 - ------------------------------------------------------------------
+2019-02-02 09:04:58 DEBUG cache:45 - Couldn't find template in cache for "Extent.Offline.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-02 09:04:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en_IN.ftl"): Not found
+2019-02-02 09:04:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en.ftl"): Not found
+2019-02-02 09:04:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline.ftl"): Found
+2019-02-02 09:04:58 DEBUG cache:45 - Loading template for "Extent.Offline.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Abhijit/ejagruti-automation/maven/Repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.Offline.ftl"
+2019-02-02 09:04:59 DEBUG cache:45 - Couldn't find template in cache for "Extent.Offline.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-02 09:04:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en_IN.ftl"): Not found
+2019-02-02 09:04:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en.ftl"): Not found
+2019-02-02 09:04:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline.ftl"): Found
+2019-02-02 09:04:59 DEBUG cache:45 - Loading template for "Extent.Offline.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Abhijit/ejagruti-automation/maven/Repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.Offline.ftl"
+2019-02-02 09:04:59 INFO  CreateCompany:18 - ************Create Company finctionality************
+2019-02-02 09:04:59 INFO  CreateCompany:22 - This will run before the Scenario.
+2019-02-02 09:04:59 INFO  LoginApp:23 - STEP:1 STATUS:PASS, STEP NAME:When user opens the firefox browser, Exception Info:NA
+2019-02-02 09:04:59 INFO  LoginApp:41 - STEP:2 STATUS:PASS, STEP NAME:User has entered the url http://localhost:90/finsys, Exception Info:NA
+2019-02-02 09:04:59 INFO  LoginApp:57 - STEP:3 STATUS:PASS, STEP NAME:User landed on Login page. Exception Info:NA
+2019-02-02 09:04:59 INFO  LoginApp:75 - STEP:4 STATUS:PASS, STEP NAME:User will be entered as dummyfm, Exception Info:NA
+2019-02-02 09:04:59 INFO  LoginApp:91 - STEP:5 STATUS:PASS, STEP NAME:User has entered password as passw0rd, Exception Info:NA
+2019-02-02 09:04:59 INFO  LoginApp:108 - STEP:6 STATUS:PASS, STEP NAME:Login button has clicked. Exception Info:NA
+2019-02-02 09:04:59 INFO  LoginApp:125 - STEP:7 STATUS:PASS, STEP NAME:User Login validation. Exception Info:NA
+2019-02-02 09:04:59 INFO  LoginApp:142 - STEP:8 STATUS:PASS, STEP NAME:Login message validation. Exception Info:NA
+2019-02-02 09:04:59 INFO  LoginApp:59 - STEP:9 STATUS:PASS, STEP NAME:Verify that user is on Welcome Page, Exception Info:NA
+2019-02-02 09:04:59 INFO  LoginApp:78 - STEP:10 STATUS:PASS, STEP NAME:User has clicked on Manage Company link, Exception Info:NA
+2019-02-02 09:04:59 INFO  LoginApp:95 - STEP:11 STATUS:PASS, STEP NAME:System shows the 'ManageCompany' tab, Exception Info:NA
+2019-02-02 09:04:59 INFO  LoginApp:114 - STEP:12 STATUS:PASS, STEP NAME:Application displays 'Company' table after clicking on 'Manage Company' link, Exception Info:NA
+2019-02-02 09:04:59 INFO  LoginApp:133 - STEP:13 STATUS:PASS, STEP NAME:User clicked on the New Company Link., Exception Info:NA
+2019-02-02 09:04:59 INFO  LoginApp:150 - STEP:14 STATUS:PASS, STEP NAME:User entered Company name as TCS, Exception Info:NA
+2019-02-02 09:04:59 INFO  LoginApp:168 - STEP:15 STATUS:PASS, STEP NAME:User has entered the company type as IT, Exception Info:NA
+2019-02-02 09:04:59 INFO  LoginApp:186 - STEP:16 STATUS:PASS, STEP NAME:User has selected the Country as INDIA, Exception Info:NA
+2019-02-02 09:04:59 INFO  LoginApp:204 - STEP:17 STATUS:PASS, STEP NAME:User has selected the state MAHARASTRA, Exception Info:NA
+2019-02-02 09:04:59 INFO  LoginApp:221 - STEP:18 STATUS:PASS, STEP NAME:User has entered the city as PUNE, Exception Info:NA
+2019-02-02 09:04:59 INFO  LoginApp:239 - STEP:19 STATUS:PASS, STEP NAME:User has entered the Email as abc@ejagruti.com, Exception Info:NA
+2019-02-02 09:04:59 INFO  LoginApp:257 - STEP:20 STATUS:PASS, STEP NAME:User has entered the PAN as ABCYZ1234A, Exception Info:NA
+2019-02-02 09:04:59 INFO  LoginApp:274 - STEP:21 STATUS:PASS, STEP NAME:User has entered the TIN as XYZAB9876Z, Exception Info:NA
+2019-02-02 09:04:59 INFO  LoginApp:291 - STEP:22 STATUS:PASS, STEP NAME:User has clicked to save, Exception Info:NA
+2019-02-02 09:04:59 INFO  LoginApp:309 - STEP:23 STATUS:PASS, STEP NAME:Application has displayed new record in table, Exception Info:NA
+2019-02-02 09:04:59 INFO  CreateCompany:46 - This will run after the scenario.
+2019-02-02 09:04:59 INFO  CreateCompany:47 - ************End of Create Company finctionality***********
+2019-02-02 09:04:59 INFO  CreateCompany:48 - ------------------------------------------------------------------
+2019-02-02 09:04:59 DEBUG cache:45 - Couldn't find template in cache for "Extent.Offline.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-02 09:04:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en_IN.ftl"): Not found
+2019-02-02 09:04:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en.ftl"): Not found
+2019-02-02 09:04:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline.ftl"): Found
+2019-02-02 09:04:59 DEBUG cache:45 - Loading template for "Extent.Offline.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Abhijit/ejagruti-automation/maven/Repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.Offline.ftl"
+2019-02-02 09:04:59 DEBUG cache:45 - Couldn't find template in cache for "Extent.Offline.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-02 09:04:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en_IN.ftl"): Not found
+2019-02-02 09:04:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en.ftl"): Not found
+2019-02-02 09:04:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline.ftl"): Found
+2019-02-02 09:04:59 DEBUG cache:45 - Loading template for "Extent.Offline.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Abhijit/ejagruti-automation/maven/Repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.Offline.ftl"
+2019-02-02 09:53:51 INFO  CreateCompany:18 - ************Login Functionality for valid username and password************
+2019-02-02 09:53:51 INFO  CreateCompany:22 - This will run before the Scenario.
+2019-02-02 09:53:52 INFO  LoginApp:23 - STEP:1 STATUS:PASS, STEP NAME:When user opens the firefox browser, Exception Info:NA
+2019-02-02 09:53:52 INFO  LoginApp:41 - STEP:2 STATUS:PASS, STEP NAME:And user enter the url http://localhost:90/finsys, Exception Info:NA
+2019-02-02 09:53:52 INFO  LoginApp:57 - STEP:3 STATUS:PASS, STEP NAME:Given user is on the application login page. Exception Info:NA
+2019-02-02 09:53:52 INFO  LoginApp:75 - STEP:4 STATUS:PASS, STEP NAME:When user enters dummyfm as username, Exception Info:NA
+2019-02-02 09:53:52 INFO  LoginApp:91 - STEP:5 STATUS:PASS, STEP NAME:And user enters passw0rd as password, Exception Info:NA
+2019-02-02 09:53:52 INFO  LoginApp:108 - STEP:6 STATUS:PASS, STEP NAME:And user clicks on login button. Exception Info:NA
+2019-02-02 09:53:52 INFO  LoginApp:125 - STEP:7 STATUS:PASS, STEP NAME:Then user is on the application home page. Exception Info:NA
+2019-02-02 09:53:52 INFO  LoginApp:142 - STEP:8 STATUS:PASS, STEP NAME:Then user gets 'Welcome dummy[FM]' message. Exception Info:NA
+2019-02-02 09:53:52 INFO  CreateCompany:46 - This will run after the scenario.
+2019-02-02 09:53:52 INFO  CreateCompany:47 - ************End of Login Functionality for valid username and password***********
+2019-02-02 09:53:52 INFO  CreateCompany:48 - ------------------------------------------------------------------
+2019-02-02 09:53:52 DEBUG cache:45 - Couldn't find template in cache for "Extent.Offline.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-02 09:53:52 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en_IN.ftl"): Not found
+2019-02-02 09:53:52 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en.ftl"): Not found
+2019-02-02 09:53:52 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline.ftl"): Found
+2019-02-02 09:53:52 DEBUG cache:45 - Loading template for "Extent.Offline.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Abhijit/ejagruti-automation/maven/Repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.Offline.ftl"
+2019-02-02 09:53:52 DEBUG cache:45 - Couldn't find template in cache for "Extent.Offline.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-02 09:53:52 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en_IN.ftl"): Not found
+2019-02-02 09:53:52 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en.ftl"): Not found
+2019-02-02 09:53:52 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline.ftl"): Found
+2019-02-02 09:53:52 DEBUG cache:45 - Loading template for "Extent.Offline.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Abhijit/ejagruti-automation/maven/Repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.Offline.ftl"
+2019-02-02 09:53:52 INFO  CreateCompany:18 - ************Create Company finctionality************
+2019-02-02 09:53:52 INFO  CreateCompany:22 - This will run before the Scenario.
+2019-02-02 09:53:52 INFO  LoginApp:23 - STEP:1 STATUS:PASS, STEP NAME:When user opens the firefox browser, Exception Info:NA
+2019-02-02 09:53:52 INFO  LoginApp:41 - STEP:2 STATUS:PASS, STEP NAME:And user enter the url http://localhost:90/finsys, Exception Info:NA
+2019-02-02 09:53:52 INFO  LoginApp:57 - STEP:3 STATUS:PASS, STEP NAME:Given user is on the application login page. Exception Info:NA
+2019-02-02 09:53:52 INFO  LoginApp:75 - STEP:4 STATUS:PASS, STEP NAME:When user enters dummyfm as username, Exception Info:NA
+2019-02-02 09:53:52 INFO  LoginApp:91 - STEP:5 STATUS:PASS, STEP NAME:And user enters passw0rd as password, Exception Info:NA
+2019-02-02 09:53:52 INFO  LoginApp:108 - STEP:6 STATUS:PASS, STEP NAME:And user clicks on login button. Exception Info:NA
+2019-02-02 09:53:52 INFO  LoginApp:125 - STEP:7 STATUS:PASS, STEP NAME:Then user is on the application home page. Exception Info:NA
+2019-02-02 09:53:52 INFO  LoginApp:142 - STEP:8 STATUS:PASS, STEP NAME:Then user gets 'Welcome dummy[FM]' message. Exception Info:NA
+2019-02-02 09:53:52 INFO  LoginApp:59 - STEP:9 STATUS:PASS, STEP NAME:Given user is on Welcome page of the application, Exception Info:NA
+2019-02-02 09:53:52 INFO  LoginApp:78 - STEP:10 STATUS:PASS, STEP NAME:When user clicks on Manage Company link, Exception Info:NA
+2019-02-02 09:53:52 INFO  LoginApp:95 - STEP:11 STATUS:PASS, STEP NAME:Then application adds new tab as Manage Company in Main Activity, Exception Info:NA
+2019-02-02 09:53:52 INFO  LoginApp:114 - STEP:12 STATUS:PASS, STEP NAME:And application displays Company table, Exception Info:NA
+2019-02-02 09:53:52 INFO  LoginApp:133 - STEP:13 STATUS:PASS, STEP NAME:When user clicks on New link in Company table, Exception Info:NA
+2019-02-02 09:53:52 INFO  LoginApp:150 - STEP:14 STATUS:PASS, STEP NAME:When user enters TCS as COMPNAY_NAME, Exception Info:NA
+2019-02-02 09:53:52 INFO  LoginApp:168 - STEP:15 STATUS:PASS, STEP NAME:And user enters IT as COMPNAY_TYPE, Exception Info:NA
+2019-02-02 09:53:52 INFO  LoginApp:186 - STEP:16 STATUS:PASS, STEP NAME:And user enters INDIA as COUNTRY, Exception Info:NA
+2019-02-02 09:53:52 INFO  LoginApp:204 - STEP:17 STATUS:PASS, STEP NAME:And user enters MAHARASTRA as STATE, Exception Info:NA
+2019-02-02 09:53:52 INFO  LoginApp:221 - STEP:18 STATUS:PASS, STEP NAME:And user enters PUNE as CITY, Exception Info:NA
+2019-02-02 09:53:52 INFO  LoginApp:239 - STEP:19 STATUS:PASS, STEP NAME:And user enters abc@ejagruti.com as EMAIL, Exception Info:NA
+2019-02-02 09:53:52 INFO  LoginApp:257 - STEP:20 STATUS:PASS, STEP NAME:And user enters ABCYZ1234A as PAN, Exception Info:NA
+2019-02-02 09:53:52 INFO  LoginApp:274 - STEP:21 STATUS:PASS, STEP NAME:And user enters XYZAB9876Z as TIN, Exception Info:NA
+2019-02-02 09:53:52 INFO  LoginApp:291 - STEP:22 STATUS:PASS, STEP NAME:And user clicks on Save button, Exception Info:NA
+2019-02-02 09:53:52 INFO  LoginApp:309 - STEP:23 STATUS:PASS, STEP NAME:Then application display the new record by name as TSC in first row of the table, Exception Info:NA
+2019-02-02 09:53:52 INFO  CreateCompany:46 - This will run after the scenario.
+2019-02-02 09:53:52 INFO  CreateCompany:47 - ************End of Create Company finctionality***********
+2019-02-02 09:53:52 INFO  CreateCompany:48 - ------------------------------------------------------------------
+2019-02-02 09:53:52 DEBUG cache:45 - Couldn't find template in cache for "Extent.Offline.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-02 09:53:52 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en_IN.ftl"): Not found
+2019-02-02 09:53:52 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en.ftl"): Not found
+2019-02-02 09:53:52 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline.ftl"): Found
+2019-02-02 09:53:52 DEBUG cache:45 - Loading template for "Extent.Offline.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Abhijit/ejagruti-automation/maven/Repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.Offline.ftl"
+2019-02-02 09:53:53 DEBUG cache:45 - Couldn't find template in cache for "Extent.Offline.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-02 09:53:53 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en_IN.ftl"): Not found
+2019-02-02 09:53:53 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en.ftl"): Not found
+2019-02-02 09:53:53 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline.ftl"): Found
+2019-02-02 09:53:53 DEBUG cache:45 - Loading template for "Extent.Offline.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Abhijit/ejagruti-automation/maven/Repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.Offline.ftl"
+2019-02-02 09:56:19 INFO  CreateCompany:18 - ************Login Functionality for valid username and password************
+2019-02-02 09:56:19 INFO  CreateCompany:22 - This will run before the Scenario.
+2019-02-02 09:56:20 INFO  LoginApp:23 - STEP:1 STATUS:PASS, STEP NAME:When user opens the firefox browser, Exception Info:NA
+2019-02-02 09:56:20 INFO  LoginApp:41 - STEP:2 STATUS:PASS, STEP NAME:And user enter the url http://localhost:90/finsys, Exception Info:NA
+2019-02-02 09:56:20 INFO  LoginApp:57 - STEP:3 STATUS:PASS, STEP NAME:Given user is on the application login page. Exception Info:NA
+2019-02-02 09:56:20 INFO  LoginApp:75 - STEP:4 STATUS:PASS, STEP NAME:When user enters dummyfm as username, Exception Info:NA
+2019-02-02 09:56:20 INFO  LoginApp:91 - STEP:5 STATUS:PASS, STEP NAME:And user enters passw0rd as password, Exception Info:NA
+2019-02-02 09:56:20 INFO  LoginApp:108 - STEP:6 STATUS:PASS, STEP NAME:And user clicks on login button. Exception Info:NA
+2019-02-02 09:56:20 INFO  CreateCompany:46 - This will run after the scenario.
+2019-02-02 09:56:20 INFO  CreateCompany:47 - ************End of Login Functionality for valid username and password***********
+2019-02-02 09:56:20 INFO  CreateCompany:48 - ------------------------------------------------------------------
+2019-02-02 09:56:20 DEBUG cache:45 - Couldn't find template in cache for "Extent.Offline.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-02 09:56:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en_IN.ftl"): Not found
+2019-02-02 09:56:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en.ftl"): Not found
+2019-02-02 09:56:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline.ftl"): Found
+2019-02-02 09:56:20 DEBUG cache:45 - Loading template for "Extent.Offline.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Abhijit/ejagruti-automation/maven/Repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.Offline.ftl"
+2019-02-02 09:56:20 DEBUG cache:45 - Couldn't find template in cache for "Extent.Offline.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-02 09:56:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en_IN.ftl"): Not found
+2019-02-02 09:56:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en.ftl"): Not found
+2019-02-02 09:56:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline.ftl"): Found
+2019-02-02 09:56:20 DEBUG cache:45 - Loading template for "Extent.Offline.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Abhijit/ejagruti-automation/maven/Repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.Offline.ftl"
+2019-02-02 09:56:20 INFO  CreateCompany:18 - ************Create Company finctionality************
+2019-02-02 09:56:20 INFO  CreateCompany:22 - This will run before the Scenario.
+2019-02-02 09:56:20 INFO  LoginApp:23 - STEP:1 STATUS:PASS, STEP NAME:When user opens the firefox browser, Exception Info:NA
+2019-02-02 09:56:20 INFO  LoginApp:41 - STEP:2 STATUS:PASS, STEP NAME:And user enter the url http://localhost:90/finsys, Exception Info:NA
+2019-02-02 09:56:20 INFO  LoginApp:57 - STEP:3 STATUS:PASS, STEP NAME:Given user is on the application login page. Exception Info:NA
+2019-02-02 09:56:20 INFO  LoginApp:75 - STEP:4 STATUS:PASS, STEP NAME:When user enters dummyfm as username, Exception Info:NA
+2019-02-02 09:56:20 INFO  LoginApp:91 - STEP:5 STATUS:PASS, STEP NAME:And user enters passw0rd as password, Exception Info:NA
+2019-02-02 09:56:20 INFO  LoginApp:108 - STEP:6 STATUS:PASS, STEP NAME:And user clicks on login button. Exception Info:NA
+2019-02-02 09:56:20 INFO  CreateCompany:46 - This will run after the scenario.
+2019-02-02 09:56:20 INFO  CreateCompany:47 - ************End of Create Company finctionality***********
+2019-02-02 09:56:20 INFO  CreateCompany:48 - ------------------------------------------------------------------
+2019-02-02 09:56:20 DEBUG cache:45 - Couldn't find template in cache for "Extent.Offline.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-02 09:56:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en_IN.ftl"): Not found
+2019-02-02 09:56:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en.ftl"): Not found
+2019-02-02 09:56:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline.ftl"): Found
+2019-02-02 09:56:20 DEBUG cache:45 - Loading template for "Extent.Offline.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Abhijit/ejagruti-automation/maven/Repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.Offline.ftl"
+2019-02-02 09:56:20 DEBUG cache:45 - Couldn't find template in cache for "Extent.Offline.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-02 09:56:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en_IN.ftl"): Not found
+2019-02-02 09:56:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en.ftl"): Not found
+2019-02-02 09:56:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline.ftl"): Found
+2019-02-02 09:56:20 DEBUG cache:45 - Loading template for "Extent.Offline.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Abhijit/ejagruti-automation/maven/Repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.Offline.ftl"
+2019-02-02 09:57:03 INFO  CreateCompany:18 - ************Login Functionality for valid username and password************
+2019-02-02 09:57:03 INFO  CreateCompany:22 - This will run before the Scenario.
+2019-02-02 09:57:04 INFO  LoginApp:23 - STEP:1 STATUS:PASS, STEP NAME:When user opens the firefox browser, Exception Info:NA
+2019-02-02 09:57:04 INFO  LoginApp:41 - STEP:2 STATUS:PASS, STEP NAME:And user enter the url http://localhost:90/finsys, Exception Info:NA
+2019-02-02 09:57:04 INFO  LoginApp:57 - STEP:3 STATUS:PASS, STEP NAME:Given user is on the application login page. Exception Info:NA
+2019-02-02 09:57:04 INFO  LoginApp:75 - STEP:4 STATUS:PASS, STEP NAME:When user enters dummyfm as username, Exception Info:NA
+2019-02-02 09:57:04 INFO  LoginApp:91 - STEP:5 STATUS:PASS, STEP NAME:And user enters passw0rd as password, Exception Info:NA
+2019-02-02 09:57:04 INFO  LoginApp:108 - STEP:6 STATUS:PASS, STEP NAME:And user clicks on login button. Exception Info:NA
+2019-02-02 09:57:04 INFO  LoginApp:125 - STEP:7 STATUS:PASS, STEP NAME:Then user is on the application home page. Exception Info:NA
+2019-02-02 09:57:04 INFO  LoginApp:142 - STEP:8 STATUS:PASS, STEP NAME:Then user gets 'Welcome dummy[FM]' message. Exception Info:NA
+2019-02-02 09:57:04 INFO  CreateCompany:46 - This will run after the scenario.
+2019-02-02 09:57:04 INFO  CreateCompany:47 - ************End of Login Functionality for valid username and password***********
+2019-02-02 09:57:04 INFO  CreateCompany:48 - ------------------------------------------------------------------
+2019-02-02 09:57:04 DEBUG cache:45 - Couldn't find template in cache for "Extent.Offline.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-02 09:57:04 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en_IN.ftl"): Not found
+2019-02-02 09:57:04 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en.ftl"): Not found
+2019-02-02 09:57:04 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline.ftl"): Found
+2019-02-02 09:57:04 DEBUG cache:45 - Loading template for "Extent.Offline.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Abhijit/ejagruti-automation/maven/Repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.Offline.ftl"
+2019-02-02 09:57:04 DEBUG cache:45 - Couldn't find template in cache for "Extent.Offline.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-02 09:57:04 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en_IN.ftl"): Not found
+2019-02-02 09:57:04 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en.ftl"): Not found
+2019-02-02 09:57:04 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline.ftl"): Found
+2019-02-02 09:57:04 DEBUG cache:45 - Loading template for "Extent.Offline.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Abhijit/ejagruti-automation/maven/Repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.Offline.ftl"
+2019-02-02 09:57:04 INFO  CreateCompany:18 - ************Create Company finctionality************
+2019-02-02 09:57:04 INFO  CreateCompany:22 - This will run before the Scenario.
+2019-02-02 09:57:04 INFO  LoginApp:23 - STEP:1 STATUS:PASS, STEP NAME:When user opens the firefox browser, Exception Info:NA
+2019-02-02 09:57:04 INFO  LoginApp:41 - STEP:2 STATUS:PASS, STEP NAME:And user enter the url http://localhost:90/finsys, Exception Info:NA
+2019-02-02 09:57:04 INFO  LoginApp:57 - STEP:3 STATUS:PASS, STEP NAME:Given user is on the application login page. Exception Info:NA
+2019-02-02 09:57:04 INFO  LoginApp:75 - STEP:4 STATUS:PASS, STEP NAME:When user enters dummyfm as username, Exception Info:NA
+2019-02-02 09:57:04 INFO  LoginApp:91 - STEP:5 STATUS:PASS, STEP NAME:And user enters passw0rd as password, Exception Info:NA
+2019-02-02 09:57:04 INFO  LoginApp:108 - STEP:6 STATUS:PASS, STEP NAME:And user clicks on login button. Exception Info:NA
+2019-02-02 09:57:04 INFO  LoginApp:125 - STEP:7 STATUS:PASS, STEP NAME:Then user is on the application home page. Exception Info:NA
+2019-02-02 09:57:04 INFO  LoginApp:142 - STEP:8 STATUS:PASS, STEP NAME:Then user gets 'Welcome dummy[FM]' message. Exception Info:NA
+2019-02-02 09:57:04 INFO  LoginApp:59 - STEP:9 STATUS:PASS, STEP NAME:Given user is on Welcome page of the application, Exception Info:NA
+2019-02-02 09:57:04 INFO  LoginApp:78 - STEP:10 STATUS:PASS, STEP NAME:When user clicks on Manage Company link, Exception Info:NA
+2019-02-02 09:57:04 INFO  LoginApp:95 - STEP:11 STATUS:PASS, STEP NAME:Then application adds new tab as Manage Company in Main Activity, Exception Info:NA
+2019-02-02 09:57:04 INFO  LoginApp:114 - STEP:12 STATUS:PASS, STEP NAME:And application displays Company table, Exception Info:NA
+2019-02-02 09:57:04 INFO  LoginApp:133 - STEP:13 STATUS:PASS, STEP NAME:When user clicks on New link in Company table, Exception Info:NA
+2019-02-02 09:57:04 INFO  LoginApp:150 - STEP:14 STATUS:PASS, STEP NAME:When user enters TCS as COMPNAY_NAME, Exception Info:NA
+2019-02-02 09:57:04 INFO  LoginApp:168 - STEP:15 STATUS:PASS, STEP NAME:And user enters IT as COMPNAY_TYPE, Exception Info:NA
+2019-02-02 09:57:04 INFO  LoginApp:186 - STEP:16 STATUS:PASS, STEP NAME:And user enters INDIA as COUNTRY, Exception Info:NA
+2019-02-02 09:57:05 INFO  LoginApp:204 - STEP:17 STATUS:PASS, STEP NAME:And user enters MAHARASTRA as STATE, Exception Info:NA
+2019-02-02 09:57:05 INFO  LoginApp:221 - STEP:18 STATUS:PASS, STEP NAME:And user enters PUNE as CITY, Exception Info:NA
+2019-02-02 09:57:05 INFO  LoginApp:239 - STEP:19 STATUS:PASS, STEP NAME:And user enters abc@ejagruti.com as EMAIL, Exception Info:NA
+2019-02-02 09:57:05 INFO  LoginApp:257 - STEP:20 STATUS:PASS, STEP NAME:And user enters ABCYZ1234A as PAN, Exception Info:NA
+2019-02-02 09:57:05 INFO  LoginApp:274 - STEP:21 STATUS:PASS, STEP NAME:And user enters XYZAB9876Z as TIN, Exception Info:NA
+2019-02-02 09:57:05 INFO  LoginApp:291 - STEP:22 STATUS:PASS, STEP NAME:And user clicks on Save button, Exception Info:NA
+2019-02-02 09:57:05 INFO  LoginApp:309 - STEP:23 STATUS:PASS, STEP NAME:Then application display the new record by name as TSC in first row of the table, Exception Info:NA
+2019-02-02 09:57:05 INFO  CreateCompany:46 - This will run after the scenario.
+2019-02-02 09:57:05 INFO  CreateCompany:47 - ************End of Create Company finctionality***********
+2019-02-02 09:57:05 INFO  CreateCompany:48 - ------------------------------------------------------------------
+2019-02-02 09:57:05 DEBUG cache:45 - Couldn't find template in cache for "Extent.Offline.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-02 09:57:05 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en_IN.ftl"): Not found
+2019-02-02 09:57:05 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en.ftl"): Not found
+2019-02-02 09:57:05 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline.ftl"): Found
+2019-02-02 09:57:05 DEBUG cache:45 - Loading template for "Extent.Offline.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Abhijit/ejagruti-automation/maven/Repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.Offline.ftl"
+2019-02-02 09:57:05 DEBUG cache:45 - Couldn't find template in cache for "Extent.Offline.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-02 09:57:05 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en_IN.ftl"): Not found
+2019-02-02 09:57:05 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en.ftl"): Not found
+2019-02-02 09:57:05 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline.ftl"): Found
+2019-02-02 09:57:05 DEBUG cache:45 - Loading template for "Extent.Offline.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Abhijit/ejagruti-automation/maven/Repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.Offline.ftl"
+2019-02-02 10:00:03 INFO  CreateCompany:18 - ************Login Functionality for valid username and password************
+2019-02-02 10:00:03 INFO  CreateCompany:22 - This will run before the Scenario.
+2019-02-02 10:00:04 INFO  LoginApp:23 - STEP:1 STATUS:PASS, STEP NAME:When user opens the firefox browser, Exception Info:NA
+2019-02-02 10:00:04 INFO  LoginApp:41 - STEP:2 STATUS:PASS, STEP NAME:And user enter the url http://localhost:90/finsys, Exception Info:NA
+2019-02-02 10:00:04 INFO  LoginApp:57 - STEP:3 STATUS:PASS, STEP NAME:Given user is on the application login page. Exception Info:NA
+2019-02-02 10:00:04 INFO  LoginApp:75 - STEP:4 STATUS:PASS, STEP NAME:When user enters dummyfm as username, Exception Info:NA
+2019-02-02 10:00:04 INFO  LoginApp:91 - STEP:5 STATUS:PASS, STEP NAME:And user enters passw0rd as password, Exception Info:NA
+2019-02-02 10:00:04 INFO  LoginApp:108 - STEP:6 STATUS:PASS, STEP NAME:And user clicks on login button. Exception Info:NA
+2019-02-02 10:00:04 INFO  LoginApp:125 - STEP:7 STATUS:PASS, STEP NAME:Then user is on the application home page. Exception Info:NA
+2019-02-02 10:00:04 INFO  LoginApp:142 - STEP:8 STATUS:PASS, STEP NAME:Then user gets 'Welcome dummy[FM]' message. Exception Info:NA
+2019-02-02 10:00:04 INFO  CreateCompany:46 - This will run after the scenario.
+2019-02-02 10:00:04 INFO  CreateCompany:47 - ************End of Login Functionality for valid username and password***********
+2019-02-02 10:00:04 INFO  CreateCompany:48 - ------------------------------------------------------------------
+2019-02-02 10:00:04 DEBUG cache:45 - Couldn't find template in cache for "Extent.Offline.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-02 10:00:04 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en_IN.ftl"): Not found
+2019-02-02 10:00:04 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en.ftl"): Not found
+2019-02-02 10:00:04 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline.ftl"): Found
+2019-02-02 10:00:04 DEBUG cache:45 - Loading template for "Extent.Offline.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Abhijit/ejagruti-automation/maven/Repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.Offline.ftl"
+2019-02-02 10:00:04 DEBUG cache:45 - Couldn't find template in cache for "Extent.Offline.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-02 10:00:04 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en_IN.ftl"): Not found
+2019-02-02 10:00:04 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en.ftl"): Not found
+2019-02-02 10:00:04 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline.ftl"): Found
+2019-02-02 10:00:04 DEBUG cache:45 - Loading template for "Extent.Offline.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Abhijit/ejagruti-automation/maven/Repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.Offline.ftl"
+2019-02-02 10:00:04 INFO  CreateCompany:18 - ************Create Company finctionality************
+2019-02-02 10:00:04 INFO  CreateCompany:22 - This will run before the Scenario.
+2019-02-02 10:00:05 INFO  LoginApp:23 - STEP:1 STATUS:PASS, STEP NAME:When user opens the firefox browser, Exception Info:NA
+2019-02-02 10:00:05 INFO  LoginApp:41 - STEP:2 STATUS:PASS, STEP NAME:And user enter the url http://localhost:90/finsys, Exception Info:NA
+2019-02-02 10:00:05 INFO  LoginApp:57 - STEP:3 STATUS:PASS, STEP NAME:Given user is on the application login page. Exception Info:NA
+2019-02-02 10:00:05 INFO  LoginApp:75 - STEP:4 STATUS:PASS, STEP NAME:When user enters dummyfm as username, Exception Info:NA
+2019-02-02 10:00:05 INFO  LoginApp:91 - STEP:5 STATUS:PASS, STEP NAME:And user enters passw0rd as password, Exception Info:NA
+2019-02-02 10:00:05 INFO  LoginApp:108 - STEP:6 STATUS:PASS, STEP NAME:And user clicks on login button. Exception Info:NA
+2019-02-02 10:00:05 INFO  LoginApp:125 - STEP:7 STATUS:PASS, STEP NAME:Then user is on the application home page. Exception Info:NA
+2019-02-02 10:00:05 INFO  LoginApp:142 - STEP:8 STATUS:PASS, STEP NAME:Then user gets 'Welcome dummy[FM]' message. Exception Info:NA
+2019-02-02 10:00:05 INFO  LoginApp:59 - STEP:9 STATUS:PASS, STEP NAME:Given user is on Welcome page of the application, Exception Info:NA
+2019-02-02 10:00:05 INFO  LoginApp:78 - STEP:10 STATUS:PASS, STEP NAME:When user clicks on Manage Company link, Exception Info:NA
+2019-02-02 10:00:05 INFO  LoginApp:95 - STEP:11 STATUS:PASS, STEP NAME:Then application adds new tab as Manage Company in Main Activity, Exception Info:NA
+2019-02-02 10:00:05 INFO  LoginApp:114 - STEP:12 STATUS:PASS, STEP NAME:And application displays Company table, Exception Info:NA
+2019-02-02 10:00:05 INFO  LoginApp:133 - STEP:13 STATUS:PASS, STEP NAME:When user clicks on New link in Company table, Exception Info:NA
+2019-02-02 10:00:05 INFO  LoginApp:150 - STEP:14 STATUS:PASS, STEP NAME:When user enters TCS as COMPNAY_NAME, Exception Info:NA
+2019-02-02 10:00:05 INFO  LoginApp:168 - STEP:15 STATUS:PASS, STEP NAME:And user enters IT as COMPNAY_TYPE, Exception Info:NA
+2019-02-02 10:00:05 INFO  LoginApp:186 - STEP:16 STATUS:PASS, STEP NAME:And user enters INDIA as COUNTRY, Exception Info:NA
+2019-02-02 10:00:05 INFO  LoginApp:204 - STEP:17 STATUS:PASS, STEP NAME:And user enters MAHARASTRA as STATE, Exception Info:NA
+2019-02-02 10:00:05 INFO  LoginApp:221 - STEP:18 STATUS:PASS, STEP NAME:And user enters PUNE as CITY, Exception Info:NA
+2019-02-02 10:00:05 INFO  LoginApp:239 - STEP:19 STATUS:PASS, STEP NAME:And user enters abc@ejagruti.com as EMAIL, Exception Info:NA
+2019-02-02 10:00:05 INFO  LoginApp:257 - STEP:20 STATUS:PASS, STEP NAME:And user enters ABCYZ1234A as PAN, Exception Info:NA
+2019-02-02 10:00:05 INFO  LoginApp:274 - STEP:21 STATUS:PASS, STEP NAME:And user enters XYZAB9876Z as TIN, Exception Info:NA
+2019-02-02 10:00:05 INFO  LoginApp:291 - STEP:22 STATUS:PASS, STEP NAME:And user clicks on Save button, Exception Info:NA
+2019-02-02 10:00:05 INFO  LoginApp:309 - STEP:23 STATUS:PASS, STEP NAME:Then application display the new record by name as TSC in first row of the table, Exception Info:NA
+2019-02-02 10:00:05 INFO  CreateCompany:46 - This will run after the scenario.
+2019-02-02 10:00:05 INFO  CreateCompany:47 - ************End of Create Company finctionality***********
+2019-02-02 10:00:05 INFO  CreateCompany:48 - ------------------------------------------------------------------
+2019-02-02 10:00:05 DEBUG cache:45 - Couldn't find template in cache for "Extent.Offline.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-02 10:00:05 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en_IN.ftl"): Not found
+2019-02-02 10:00:05 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en.ftl"): Not found
+2019-02-02 10:00:05 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline.ftl"): Found
+2019-02-02 10:00:05 DEBUG cache:45 - Loading template for "Extent.Offline.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Abhijit/ejagruti-automation/maven/Repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.Offline.ftl"
+2019-02-02 10:00:05 DEBUG cache:45 - Couldn't find template in cache for "Extent.Offline.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-02 10:00:05 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en_IN.ftl"): Not found
+2019-02-02 10:00:05 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline_en.ftl"): Not found
+2019-02-02 10:00:05 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.Offline.ftl"): Found
+2019-02-02 10:00:05 DEBUG cache:45 - Loading template for "Extent.Offline.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Abhijit/ejagruti-automation/maven/Repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.Offline.ftl"

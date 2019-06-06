@@ -1,0 +1,6 @@
+ejagruti\Config\Config.class
+ejagruti\Result\HTMLReportGenerator.class
+ejagruti\features\LoginApp.class
+ejagruti\features\runTest.class
+ejagruti\features\Hooks.class
+ejagruti\features\CreateCompany.class
