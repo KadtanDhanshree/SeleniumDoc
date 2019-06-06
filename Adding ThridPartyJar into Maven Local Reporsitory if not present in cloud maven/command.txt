@@ -1,0 +1,4 @@
+
+//----if i want to add textfileoperations.jar file into local maven reporsitory then i will use below commands
+
+mvn install:install-file -Dfile=e:\textfileoperations.jar -DgroupId=ejagruti.generic -DartifactId=textoperations -Dversion=1.0.0 -Dpackaging=jar
