@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke">
+<listeners>
+	<listener class-name="ej.mm.listners.SuiteListner"></listener>
+	<listener class-name="ej.mm.listners.TestCaseListner"></listener>
+</listeners>
+  <test name="verify login functionality by passing valid username and password">
+  <parameter name="automation_id" value="1"></parameter>
+  <parameter name="tcid" value="32"></parameter>
+  <parameter name="rid" value="US-MM-S5R1005"></parameter>
+  <parameter name="owner" value="shriram"></parameter>
+  
+  	<parameter name="browser_name" value="ch64"></parameter>
+  	<parameter name="application_url" value="http://localhost:1979/ejagruti"></parameter>
+  	<parameter name="time_out_in_seconds" value="10"></parameter>
+  	
+  	
+  	<parameter name="user_name" value="admin"></parameter>
+  	<parameter name="password" value="ejagruti"></parameter>
+  	<parameter name="time_to_wait_in_seconds" value="10"></parameter>
+  	
+  	
+  <classes>
+  	<class name="ej.mm.modules.LaunchApp">
+  		<methods>
+  			<include name="OpenBrowser"></include>
+  		
+  			<include name="EnterURL"></include>
+  		
+  			<include name="WaitTillLoginPageFullyLoaded"></include>
+  		
+  			<include name="MaximizeLoginPage"></include>
+  		</methods>  
+  	</class>  
+  	<class name="ej.mm.modules.Login">
+  		<methods>
+  			<include name="EnterUserName"></include>
+  		
+  			<include name="EnterPassword"></include>
+  			
+  			<include name="ClickOnLoginButton"></include>
+  		
+  			<include name="WaitTillHomePageFullyLoaded"></include>
+  			
+  			<include name="CloseTheBrowser"></include>
+  			
+  		</methods>
+  		
+  	</class> 
+  </classes>
+   
+  
+  </test> <!-- Test -->
+  
+  
+  <test name="verify login functionality by passing blank spaces in username and password">
+  
+  <parameter name="automation_id" value="2"></parameter>
+  <parameter name="tcid" value="79"></parameter>
+  <parameter name="rid" value="US-MM-S5R1005"></parameter>
+  <parameter name="owner" value="shriram"></parameter>
+  
+  	<parameter name="browser_name" value="ch64"></parameter>
+  	<parameter name="application_url" value="http://localhost:1979/ejagruti"></parameter>
+  	<parameter name="time_out_in_seconds" value="10"></parameter>
+  	
+  	
+  	<parameter name="user_name" value=""></parameter>
+  	<parameter name="password" value=""></parameter>
+  	<parameter name="time_to_wait_in_seconds" value="10"></parameter>
+  	<parameter name="error_message" value="Please Enter Valid Username or Password!!!"></parameter>
+  	
+  	
+  <classes>
+  	<class name="ej.mm.modules.LaunchApp">
+  		<methods>
+  			<include name="OpenBrowser"></include>
+  		
+  			<include name="EnterURL"></include>
+  		
+  			<include name="WaitTillLoginPageFullyLoaded"></include>
+  		
+  			<include name="MaximizeLoginPage"></include>
+  		</methods>  
+  	</class>  
+  	<class name="ej.mm.modules.Login">
+  		<methods>
+  			<include name="EnterUserName"></include>
+  		
+  			<include name="EnterPassword"></include>
+  			
+  			<include name="ClickOnLoginButton"></include>
+  		
+  			<include name="WaitTillHomePageFullyLoaded"></include>
+  			
+  			<include name="CheckForErrorMessageOnTheLoginPage"></include>
+  			
+  			<include name="CloseTheBrowser"></include>
+  		</methods>
+  		
+  	</class> 
+  </classes>
+   
+  
+  </test> <!-- Test -->
+  
+  
+  <test name="verify login functionality by passing blank username and password">
+  <parameter name="automation_id" value="3"></parameter>
+  <parameter name="tcid" value="78"></parameter>
+  <parameter name="rid" value="US-MM-S5R1005"></parameter>
+  <parameter name="owner" value="shriram"></parameter>
+  
+  	<parameter name="browser_name" value="ch64"></parameter>
+  	<parameter name="application_url" value="http://localhost:1979/ejagruti"></parameter>
+  	<parameter name="time_out_in_seconds" value="10"></parameter>
+  	
+  	
+  	<parameter name="error_message" value="Please Enter Valid Username or Password!!!"></parameter>
+  	<parameter name="time_out_in_seconds" value="10"></parameter>
+  	
+  	
+  <classes>
+  	<class name="ej.mm.modules.LaunchApp">
+  		<methods>
+  			<include name="OpenBrowser"></include>
+  		
+  			<include name="EnterURL"></include>
+  		
+  			<include name="WaitTillLoginPageFullyLoaded"></include>
+  		
+  			<include name="MaximizeLoginPage"></include>
+  		</methods>  
+  	</class>  
+  	<class name="ej.mm.modules.Login">
+  		<methods>
+  			
+  			
+  			<include name="ClickOnLoginButton"></include>
+  			
+  			<include name="WaitTillLoginPageFullyLoaded"></include>
+  		
+  			<include name="CheckForErrorMessageOnTheLoginPage"></include>
+  			
+  			<include name="CloseTheBrowser"></include>
+  		</methods>
+  		
+  	</class> 
+  </classes>
+   
+  
+  </test> <!-- Test -->
+  
+  
+  
+  <test name="Verify login functionality by passing invalid username and valid password">
+  <parameter name="automation_id" value="4"></parameter>
+  <parameter name="tcid" value="77"></parameter>
+  <parameter name="rid" value="US-MM-S5R1005"></parameter>
+  <parameter name="owner" value="shriram"></parameter>
+  
+  	<parameter name="browser_name" value="ch64"></parameter>
+  	<parameter name="application_url" value="http://localhost:1979/ejagruti"></parameter>
+  	<parameter name="time_out_in_seconds" value="10"></parameter>
+  	
+  	
+  	<parameter name="user_name" value="sdfasfd"></parameter>
+  	<parameter name="password" value="ejagruti"></parameter>
+  	<parameter name="time_out_in_seconds" value="10"></parameter>
+  	<parameter name="error_message" value="Please Enter Valid Username or Password!!!"></parameter>
+  	
+  	
+  <classes>
+  	<class name="ej.mm.modules.LaunchApp">
+  		<methods>
+  			<include name="OpenBrowser"></include>
+  		
+  			<include name="EnterURL"></include>
+  		
+  			<include name="WaitTillLoginPageFullyLoaded"></include>
+  		
+  			<include name="MaximizeLoginPage"></include>
+  		</methods>  
+  	</class>  
+  	<class name="ej.mm.modules.Login">
+  		<methods>
+  			<include name="EnterUserName"></include>
+  		
+  			<include name="EnterPassword"></include>
+  			
+  			<include name="ClickOnLoginButton"></include>
+  		
+  			<include name="WaitTillLoginPageFullyLoaded"></include>
+  			
+  			<include name="CheckForErrorMessageOnTheLoginPage"></include>
+  			
+  			<include name="CloseTheBrowser"></include>
+  		</methods>
+  		
+  	</class> 
+  </classes>
+   
+  
+  </test> <!-- Test -->
+  
+  
+  
+  <test name="verify login functionality with the user having role of guest">
+  <parameter name="automation_id" value="5"></parameter>
+  <parameter name="tcid" value="80"></parameter>
+  <parameter name="rid" value="US-MM-S5R1005"></parameter>
+  <parameter name="owner" value="shriram"></parameter>
+  
+  	<parameter name="browser_name" value="ch64"></parameter>
+  	<parameter name="application_url" value="http://localhost:1979/ejagruti"></parameter>
+  	<parameter name="time_out_in_seconds" value="10"></parameter>
+  	
+  	
+  	<parameter name="user_name" value="guest_user"></parameter>
+  	<parameter name="password" value="ejagruti"></parameter>
+  	<parameter name="time_to_wait_in_seconds" value="10"></parameter>
+  	
+  	
+  <classes>
+  	<class name="ej.mm.modules.LaunchApp">
+  		<methods>
+  			<include name="OpenBrowser"></include>
+  		
+  			<include name="EnterURL"></include>
+  		
+  			<include name="WaitTillLoginPageFullyLoaded"></include>
+  		
+  			<include name="MaximizeLoginPage"></include>
+  		</methods>  
+  	</class>  
+  	<class name="ej.mm.modules.Login">
+  		<methods>
+  			<include name="EnterUserName"></include>
+  		
+  			<include name="EnterPassword"></include>
+  			
+  			<include name="ClickOnLoginButton"></include>
+  		
+  			<include name="WaitTillHomePageFullyLoaded"></include>
+  			
+  			<include name="CheckForLogoutLinkOnTheHomePage"></include>
+  			
+  			<include name="CloseTheBrowser"></include>
+  		</methods>
+  		
+  	</class> 
+  </classes>
+   
+  
+  </test> <!-- Test -->
+  
+  
+  <test name="Verify MM login functionality by passing valid username and invalid password">
+  <parameter name="automation_id" value="6"></parameter>
+  <parameter name="tcid" value="76"></parameter>
+  <parameter name="rid" value="US-MM-S5R1005"></parameter>
+  <parameter name="owner" value="shriram"></parameter>
+  
+  	<parameter name="browser_name" value="ch64"></parameter>
+  	<parameter name="application_url" value="http://localhost:1979/ejagruti"></parameter>
+  	<parameter name="time_out_in_seconds" value="10"></parameter>
+  	
+  	
+  	<parameter name="user_name" value="client_user"></parameter>
+  	<parameter name="password" value="sdfasfd"></parameter>
+  	<parameter name="time_out_in_seconds" value="10"></parameter>
+  	<parameter name="error_message" value="Please Enter Valid Username or Password!!!"></parameter>
+  	
+  <classes>
+  	<class name="ej.mm.modules.LaunchApp">
+  		<methods>
+  			<include name="OpenBrowser"></include>
+  		
+  			<include name="EnterURL"></include>
+  		
+  			<include name="WaitTillLoginPageFullyLoaded"></include>
+  		
+  			<include name="MaximizeLoginPage"></include>
+  		</methods>  
+  	</class>  
+  	<class name="ej.mm.modules.Login">
+  		<methods>
+  			<include name="EnterUserName"></include>
+  		
+  			<include name="EnterPassword"></include>
+  			
+  			<include name="ClickOnLoginButton"></include>
+  		
+  			<include name="WaitTillLoginPageFullyLoaded"></include>
+  			
+  			<include name="CheckForErrorMessageOnTheLoginPage"></include>
+  			
+  			<include name="CloseTheBrowser"></include>
+  		</methods>
+  		
+  	</class> 
+  </classes>
+   
+  
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Launch -->
