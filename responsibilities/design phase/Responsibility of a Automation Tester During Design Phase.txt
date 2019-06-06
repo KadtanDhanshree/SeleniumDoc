@@ -1,0 +1,16 @@
+Project#1 (End to End) 
+1. Ability to Design any type of Automation Framework
+2. Design and deliver the complex framework components for complex requirements
+4. Actively Participated in defining the Automation Processes and Standards.
+5. As and when required provides suggestion for the Automation Framework 
+6.coach and mentor the team on design methodologies and best practices
+Customization.
+6.Involved in writing down Automation Test Plan.
+7. Identify reusable modules which fits within the framework and generates the low design document for the same
+Project#2 (Framework is Ready only Script development) 
+1. Identify reusable modules which fits within the framework and generates the low design document for the same
+
+Project#3 ( Maintenence Project)
+NA
+Project#4 ( Execution Project)
+NA

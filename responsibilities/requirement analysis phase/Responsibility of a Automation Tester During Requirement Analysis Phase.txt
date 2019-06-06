@@ -1,0 +1,33 @@
+Project#1 (End to End) 
+1. Responsible for understanding the requirement (both framework as well as test cases ) and clarify the doubts with either Manual Test Team/Client if any
+2. Evaluate and recommends the best suited Automation test tools
+3. Responsible for doing feasibility study of assigned requirement 
+4. Involved in providing Automation Test Effort Estimation
+5. Responsible for deciding Automation Test Strategy
+6. Reviews the technical deliverables and assure quality
+7. Actively Participated in defining the Automation Processes and Standards
+
+Project#2 (Framework is Ready only Script development) 
+1. Responsible for understand the requirement and clarify the doubts with either Manual Test Team/Client if any
+2. Understand the Existing Automation framework
+3. Responsible for doing feasibility study of assigned requirement  
+4. Involved in providing Automation Test Effort Estimation
+5. Responsible for deciding Automation Test Strategy
+6. Reviews the technical deliverables and assure quality
+7. Actively Participated in defining the Automation Processes and Standards.
+
+Project#3 ( Maintenence Project)
+1. Responsible for understand the requirement and clarify the doubts with either Manual Test Team/Client if any
+2. Understand the Existing Automation framework
+3. Involved in providing Automation Test Effort Estimation
+4. Responsible for deciding Automation Test Strategy
+6. Reviews the technical deliverables and assure quality
+7.Actively Participated in defining the Automation Processes and Standards
+
+Project#4 ( Execution Project)
+1. Responsible for understand the requirement and clarify the doubts with either Manual Test Team/Client if any
+2. Understand the Existing Automation framework
+3. Involved in providing Automation Test Effort Estimation
+4. Responsible for deciding Automation Test Strategy
+5. Reviews the technical deliverables and assure quality
+6.Actively Participated in defining the Automation Processes and Standards.

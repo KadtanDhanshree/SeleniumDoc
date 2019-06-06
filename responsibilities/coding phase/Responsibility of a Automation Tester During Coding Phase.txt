@@ -1,0 +1,29 @@
+Project#1 (End to End) 
+1.Reviews the technical deliverables and assure quality
+2.institutionalize and suggest best practices and be part of the continuous improvement
+3.hands on experience on automation script development using JAVA/Selenium WebDriver
+4.Very good knowledge on automation frame work development and scripting using Java/C# etc.
+5.Preparing data pool/Automation Test Data for automated tests
+6.Prepare and upload test data where applicable
+7.Review and maintain repository of automated test scripts and test suites
+8.Extensive Java Knowledge in writing and enhancing code for Automation Suite.
+9.Responsible for Automation of UI,API and DB test cases.
+10.Ability to write User Defined Function or libraries.
+11.Experience in establish and benchmark Automation Framework for Regression testing activities.
+12.Proven experience mentoring testing and training skills.
+13.Good team player and perform well in a fast paced environment.
+14.Very strong analytical, communication, writing and problem solving skill
+15.Experience/Knowledge in RDBMS and SQL.
+16.Developed all Types of Framework
+17.Hands on Experience in TestNG framework
+18. Able to Work in both TDD as well as BDD
+19.Experience in JBehave/Cucumber
+
+Project#2 (Framework is Ready only Script development) 
+Same as Above
+
+Project#3 ( Maintenence Project)
+hands on experience on automation script development using JAVA/Selenium WebDriver
+
+Project#4 ( Execution Project)
+NA
